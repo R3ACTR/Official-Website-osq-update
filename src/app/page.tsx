@@ -1,73 +1,119 @@
-import { Header } from "@/components/layout/header";
-import { Footer } from "@/components/layout/footer";
-import { HeroSection } from "@/components/sections/hero-section";
-import { ProjectsSection, type Project } from "@/components/sections/projects-section";
-import { AboutSection } from "@/components/sections/about-section";
-import { ContactSection } from "@/components/sections/contact-section";
+import {
+  SidebarProvider,
+  Sidebar,
+  SidebarHeader,
+  SidebarMenu,
+  SidebarMenuItem,
+  SidebarMenuButton,
+  SidebarFooter,
+  SidebarInset,
+  SidebarTrigger,
+} from '@/components/ui/sidebar';
+import {
+  Home,
+  Calendar,
+  Users,
+  Library,
+  Settings,
+  LogOut,
+  ArrowLeft,
+  Bell,
+  Search,
+  Code2,
+} from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
+import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
+import { TrainerInfoSection } from '@/components/sections/trainer-info-section';
 
-const projects: Project[] = [
-  {
-    title: "QuantumLeap CRM",
-    description: "A futuristic CRM platform with predictive analytics and a focus on minimalist design.",
-    link: "#",
-    image: "https://placehold.co/600x400.png",
-    tags: ["Development", "Design"],
-    dataAiHint: "technology abstract"
-  },
-  {
-    title: "Project Nova",
-    description: "An e-commerce site for a streetwear brand, built with a raw, brutalist aesthetic.",
-    link: "#",
-    image: "https://placehold.co/600x400.png",
-    tags: ["Development"],
-    dataAiHint: "fashion retail"
-  },
-  {
-    title: "AI Art Generator",
-    description: "A web app that uses artificial intelligence to create unique art pieces from text prompts.",
-    link: "#",
-    image: "https://placehold.co/600x400.png",
-    tags: ["Artificial Intelligence"],
-    dataAiHint: "robot art"
-  },
-  {
-    title: "Zenith Mobile App",
-    description: "A wellness app with a clean, uncluttered interface promoting digital minimalism.",
-    link: "#",
-    image: "https://placehold.co/600x400.png",
-    tags: ["Design", "Minimalism"],
-    dataAiHint: "mobile app"
-  },
-   {
-    title: "DataWave Analytics",
-    description: "A business intelligence dashboard design focusing on data clarity and brutalist UI principles.",
-    link: "#",
-    image: "https://placehold.co/600x400.png",
-    tags: ["Design", "Development"],
-    dataAiHint: "data dashboard"
-  },
-   {
-    title: "CodeScribe",
-    description: "A technical documentation generator that automates developer guides.",
-    link: "#",
-    image: "https://placehold.co/600x400.png",
-    tags: ["Development"],
-    dataAiHint: "code screen"
-  },
-];
-
-
-export default function Home() {
+export default function JediTrainerPage() {
   return (
-    <div className="flex flex-col min-h-dvh bg-background text-foreground">
-      <Header />
-      <main className="flex-1 container mx-auto px-4 md:px-8">
-        <HeroSection />
-        <ProjectsSection projects={projects} />
-        <AboutSection allProjects={projects} />
-        <ContactSection />
-      </main>
-      <Footer />
+    <div className="bg-[#59D4EE] p-4">
+      <div className="border-2 border-black">
+        <SidebarProvider>
+          <Sidebar collapsible="icon" side="left" variant="sidebar">
+            <SidebarHeader>
+              <div className="flex items-center gap-2 p-2">
+                <Button variant="ghost" size="icon" className="h-8 w-8">
+                  <Code2 className="h-6 w-6" />
+                </Button>
+                <h1 className="font-headline text-2xl font-bold">JEDI</h1>
+              </div>
+            </SidebarHeader>
+            <SidebarMenu className="flex-1 p-2">
+              <SidebarMenuItem>
+                <SidebarMenuButton tooltip="Home" href="#">
+                  <Home />
+                  <span>Home</span>
+                </SidebarMenuButton>
+              </SidebarMenuItem>
+              <SidebarMenuItem>
+                <SidebarMenuButton tooltip="Schedule" href="#">
+                  <Calendar />
+                  <span>Schedule</span>
+                </SidebarMenuButton>
+              </SidebarMenuItem>
+              <SidebarMenuItem>
+                <SidebarMenuButton tooltip="Trainers" href="#" isActive>
+                  <Users />
+                  <span>Trainers</span>
+                </SidebarMenuButton>
+              </SidebarMenuItem>
+              <SidebarMenuItem>
+                <SidebarMenuButton tooltip="Policy Library" href="#">
+                  <Library />
+                  <span>Policy Library</span>
+                </SidebarMenuButton>
+              </SidebarMenuItem>
+              <SidebarMenuItem>
+                <SidebarMenuButton tooltip="Preferences" href="#">
+                  <Settings />
+                  <span>Preferences</span>
+                </SidebarMenuButton>
+              </SidebarMenuItem>
+            </SidebarMenu>
+            <SidebarFooter className="border-t border-sidebar-border p-2">
+              <SidebarMenu>
+                <SidebarMenuItem>
+                  <SidebarMenuButton tooltip="Log out" href="#">
+                    <LogOut />
+                    <span>Log out</span>
+                  </SidebarMenuButton>
+                </SidebarMenuItem>
+              </SidebarMenu>
+            </SidebarFooter>
+          </Sidebar>
+          <SidebarInset>
+            <header className="flex h-16 items-center justify-between border-b-2 border-black bg-background px-4">
+              <div className="flex items-center gap-4">
+                <SidebarTrigger className="md:hidden" />
+                <Button variant="outline" size="icon" className="border-2 border-black rounded-md">
+                  <ArrowLeft />
+                </Button>
+              </div>
+              <div className="flex items-center gap-4">
+                <div className="relative">
+                  <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-gray-400" />
+                  <Input
+                    placeholder="Find courses, trainers, etc."
+                    className="w-64 rounded-md border-2 border-black pl-10"
+                  />
+                </div>
+                <Button variant="ghost" size="icon" className="rounded-full">
+                  <Bell />
+                </Button>
+                <Avatar className="h-9 w-9 border-2 border-black">
+                  <AvatarImage src="https://placehold.co/40x40.png" alt="User" data-ai-hint="user avatar" />
+                  <AvatarFallback>U</AvatarFallback>
+                </Avatar>
+              </div>
+            </header>
+            <main className="flex-1 p-8 bg-[#F0EBE3]">
+              <TrainerInfoSection />
+            </main>
+          </SidebarInset>
+        </SidebarProvider>
+      </div>
     </div>
   );
 }
