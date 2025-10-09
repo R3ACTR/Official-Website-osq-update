@@ -1,22 +1,27 @@
-import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 export function HeroSection() {
   return (
-    <section className="relative text-center py-20 px-4 overflow-hidden bg-gray-100">
-      <div className="relative z-10">
-        <h1 className="text-6xl font-bold mb-4 text-gray-800">
-          The Data OS for modern data teams
-        </h1>
-        <p className="max-w-2xl mx-auto text-lg mb-8 text-gray-600">
-          A programmable, observable, and scalable data management platform to unify your data infrastructure
-        </p>
-        <div className="flex justify-center gap-4">
-          <Button size="lg" className="bg-black text-white rounded-full hover:bg-gray-800 px-6">
-            Schedule a Demo
-          </Button>
-          <Button variant="outline" size="lg" className="bg-white text-black rounded-full border-gray-300 hover:bg-gray-200 px-6">
-            Get Started
-          </Button>
+    <section className="container mx-auto px-6 py-20">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <div>
+          <h1 className="text-7xl font-extrabold mb-4 text-black leading-tight">
+            AGENTIC COPILOT<br />
+            FOR YOUR<br />
+            ENTERPRISE
+          </h1>
+          <p className="max-w-md text-lg mb-8 text-gray-700">
+            The business apps your depend on, the support you deserve, and the AI you've been waiting for - all in one platform.
+          </p>
+        </div>
+        <div className="flex justify-center">
+          <Image
+            src="https://picsum.photos/seed/dayos-hero/600/500"
+            alt="Agentic Copilot Blocks"
+            width={600}
+            height={500}
+            data-ai-hint="abstract 3d blocks"
+          />
         </div>
       </div>
     </section>
