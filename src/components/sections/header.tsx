@@ -7,8 +7,8 @@ const DayosLogo = () => (
         <Image
           src="https://r3actr.vercel.app/images/rfretr.png"
           alt="Dayos Logo"
-          width={120}
-          height={30}
+          width={90}
+          height={22.5}
           className="invert"
         />
     </div>
