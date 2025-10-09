@@ -76,3 +76,22 @@
  fill: #fff;
  baseline-shift: -30%;
 }
+.hero_animation {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.hero_animation.is-left {
+    left: 0%;
+    top: 0%;
+    right: auto;
+    bottom: auto;
+}
+
+.hero_animation.is-right {
+    left: auto;
+    top: auto;
+    right: 0%;
+    bottom: 0%;
+}
