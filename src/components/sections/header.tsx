@@ -23,7 +23,7 @@ export function Header() {
           <DayosLogo />
         </div>
         <div className="flex-1 flex justify-center">
-          <div className="bg-white/30 backdrop-blur-sm rounded-full shadow-md px-4 py-2 flex items-center gap-6">
+          <div className="bg-white/30 backdrop-blur-sm rounded-full shadow-md px-6 py-3 flex items-center gap-8">
             <a href="#" className="text-sm text-gray-700 hover:text-black transition-all duration-300 ease-in-out transform hover:scale-110">Platform</a>
             <a href="#" className="text-sm text-gray-700 hover:text-black transition-all duration-300 ease-in-out transform hover:scale-110">Solutions</a>
             <a href="#" className="text-sm text-gray-700 hover:text-black transition-all duration-300 ease-in-out transform hover:scale-110">Use Cases</a>
