@@ -3,7 +3,7 @@ import { HeroSection } from '@/components/sections/hero-section';
 
 export default function FlowPage() {
   return (
-    <div className="bg-cream">
+    <div className="bg-gray-100">
       <Header />
       <main>
         <HeroSection />
