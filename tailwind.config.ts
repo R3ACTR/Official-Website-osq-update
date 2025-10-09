@@ -11,7 +11,7 @@ export default {
     extend: {
       fontFamily: {
         body: ['"Inter"', 'sans-serif'],
-        headline: ['"Bricolage Grotesque"', 'serif'],
+        headline: ['"Orbitron"', 'sans-serif'],
       },
       colors: {
         background: 'hsl(var(--background))',
