@@ -16,6 +16,12 @@ const nextConfig: NextConfig = {
         port: '',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'r3actr.vercel.app',
+        port: '',
+        pathname: '/**',
+      }
     ],
   },
 };
