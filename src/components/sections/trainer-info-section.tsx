@@ -23,7 +23,7 @@ export function TrainerInfoSection() {
             <div className="flex justify-center items-center">
               <div className="relative w-48 h-48">
                 <Image
-                  src="https://placehold.co/192x192.png"
+                  src="https://picsum.photos/seed/hillary-main/192/192"
                   alt="Hillary Bale"
                   width={192}
                   height={192}

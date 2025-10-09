@@ -103,7 +103,7 @@ export default function JediTrainerPage() {
                   <Bell />
                 </Button>
                 <Avatar className="h-9 w-9 border-2 border-black">
-                  <AvatarImage src="https://placehold.co/40x40.png" alt="User" data-ai-hint="user avatar" />
+                  <AvatarImage src="https://picsum.photos/seed/hillary/40/40" alt="User" data-ai-hint="user avatar" />
                   <AvatarFallback>U</AvatarFallback>
                 </Avatar>
               </div>
