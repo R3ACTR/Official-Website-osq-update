@@ -78,10 +78,36 @@ export default {
             height: '0',
           },
         },
+        'futuristic-arrival': {
+          '0%': {
+            opacity: '0',
+            transform: 'translateY(20px) scale(0.95)',
+          },
+          '100%': {
+            opacity: '1',
+            transform: 'translateY(0) scale(1)',
+          },
+        },
+        'futuristic-arrival-slow': {
+          '0%': {
+            opacity: '0',
+            transform: 'translateY(20px)',
+           },
+          '50%': {
+            opacity: '0',
+            transform: 'translateY(20px)',
+          },
+          '100%': {
+            opacity: '1',
+            transform: 'translateY(0)',
+          },
+        }
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
+        'futuristic-arrival': 'futuristic-arrival 1s ease-out forwards',
+        'futuristic-arrival-slow': 'futuristic-arrival-slow 1.5s ease-out forwards',
       },
     },
   },
