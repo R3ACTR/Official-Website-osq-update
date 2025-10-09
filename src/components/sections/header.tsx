@@ -21,13 +21,13 @@ export function Header() {
         </div>
         <div className="flex-1 flex justify-center">
           <div className="bg-white/30 backdrop-blur-sm rounded-full shadow-md px-4 py-2 flex items-center gap-6">
-            <a href="#" className="text-sm text-gray-700 hover:text-black">Platform</a>
-            <a href="#" className="text-sm text-gray-700 hover:text-black">Solutions</a>
-            <a href="#" className="text-sm text-gray-700 hover:text-black">Use Cases</a>
-            <a href="#" className="text-sm text-gray-700 hover:text-black">Resources</a>
-            <a href="#" className="text-sm text-gray-700 hover:text-black">Plans</a>
-            <a href="#" className="text-sm text-gray-700 hover:text-black">Partnership</a>
-            <a href="#" className="text-sm text-gray-700 hover:text-black">Company</a>
+            <a href="#" className="text-sm text-gray-700 hover:text-black transition-colors duration-300">Platform</a>
+            <a href="#" className="text-sm text-gray-700 hover:text-black transition-colors duration-300">Solutions</a>
+            <a href="#" className="text-sm text-gray-700 hover:text-black transition-colors duration-300">Use Cases</a>
+            <a href="#" className="text-sm text-gray-700 hover:text-black transition-colors duration-300">Resources</a>
+            <a href="#" className="text-sm text-gray-700 hover:text-black transition-colors duration-300">Plans</a>
+            <a href="#" className="text-sm text-gray-700 hover:text-black transition-colors duration-300">Partnership</a>
+            <a href="#" className="text-sm text-gray-700 hover:text-black transition-colors duration-300">Company</a>
           </div>
         </div>
         <div className="flex items-center">
