@@ -1,7 +1,7 @@
 'use client';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Rocket, Target, Users } from 'lucide-react';
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 const features = [
   {
@@ -26,20 +26,28 @@ const features = [
 
 export function WhoWeAreSection() {
   const [isVisible, setIsVisible] = useState(false);
+  const sectionRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 100) {
-        setIsVisible(true);
+      if (sectionRef.current) {
+        const top = sectionRef.current.getBoundingClientRect().top;
+        const windowHeight = window.innerHeight;
+        if (top < windowHeight * 0.8) {
+          setIsVisible(true);
+        }
       }
     };
 
     window.addEventListener('scroll', handleScroll);
+    handleScroll(); 
+
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   return (
     <section 
+      ref={sectionRef}
       className={`bg-black text-white py-20 transition-all duration-1000 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
     >
       <div className="container mx-auto px-6">
