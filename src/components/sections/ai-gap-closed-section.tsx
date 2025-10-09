@@ -26,7 +26,7 @@ export function AiGapClosedSection() {
   return (
     <section
       className={cn(
-        'bg-black text-white py-24 px-6 rounded-t-[4rem] -mt-20 relative z-20 transition-all duration-1000 ease-in-out transform',
+        'bg-black text-white py-24 px-6 rounded-t-[4rem] relative z-20 transition-all duration-1000 ease-in-out transform',
         isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-full'
       )}
     >
