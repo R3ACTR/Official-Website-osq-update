@@ -10,8 +10,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        body: ['"Orbitron"', 'sans-serif'],
-        headline: ['"Orbitron"', 'sans-serif'],
+        body: ['"Exo 2"', 'sans-serif'],
+        headline: ['"Exo 2"', 'sans-serif'],
       },
       colors: {
         background: 'hsl(var(--background))',
