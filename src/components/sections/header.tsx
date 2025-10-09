@@ -9,6 +9,7 @@ const DayosLogo = () => (
           alt="Dayos Logo"
           width={120}
           height={30}
+          className="invert"
         />
     </div>
 );
@@ -23,13 +24,13 @@ export function Header() {
         </div>
         <div className="flex-1 flex justify-center">
           <div className="bg-white/30 backdrop-blur-sm rounded-full shadow-md px-4 py-2 flex items-center gap-6">
-            <a href="#" className="text-sm text-gray-700 hover:text-black transition-all duration-300 ease-in-out hover:scale-110">Platform</a>
-            <a href="#" className="text-sm text-gray-700 hover:text-black transition-all duration-300 ease-in-out hover:scale-110">Solutions</a>
-            <a href="#" className="text-sm text-gray-700 hover:text-black transition-all duration-300 ease-in-out hover:scale-110">Use Cases</a>
-            <a href="#" className="text-sm text-gray-700 hover:text-black transition-all duration-300 ease-in-out hover:scale-110">Resources</a>
-            <a href="#" className="text-sm text-gray-700 hover:text-black transition-all duration-300 ease-in-out hover:scale-110">Plans</a>
-            <a href="#" className="text-sm text-gray-700 hover:text-black transition-all duration-300 ease-in-out hover:scale-110">Partnership</a>
-            <a href="#" className="text-sm text-gray-700 hover:text-black transition-all duration-300 ease-in-out hover:scale-110">Company</a>
+            <a href="#" className="text-sm text-gray-700 hover:text-black transition-all duration-300 ease-in-out transform hover:scale-110">Platform</a>
+            <a href="#" className="text-sm text-gray-700 hover:text-black transition-all duration-300 ease-in-out transform hover:scale-110">Solutions</a>
+            <a href="#" className="text-sm text-gray-700 hover:text-black transition-all duration-300 ease-in-out transform hover:scale-110">Use Cases</a>
+            <a href="#" className="text-sm text-gray-700 hover:text-black transition-all duration-300 ease-in-out transform hover:scale-110">Resources</a>
+            <a href="#" className="text-sm text-gray-700 hover:text-black transition-all duration-300 ease-in-out transform hover:scale-110">Plans</a>
+            <a href="#" className="text-sm text-gray-700 hover:text-black transition-all duration-300 ease-in-out transform hover:scale-110">Partnership</a>
+            <a href="#" className="text-sm text-gray-700 hover:text-black transition-all duration-300 ease-in-out transform hover:scale-110">Company</a>
           </div>
         </div>
         <div className="flex items-center">
