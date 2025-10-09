@@ -16,7 +16,7 @@ const StatCard = ({ value, label }: { value: string; label: string }) => (
 export function TrainerInfoSection() {
   return (
     <div>
-      <h1 className="text-4xl font-bold font-headline mb-8">Trainer info</h1>
+      <h1 className="text-4xl font-bold font-headline mb-8 text-white">Trainer info</h1>
       <div className="border-2 border-black rounded-lg bg-primary p-1">
         <div className="border-2 border-black rounded-md bg-[#FAF5E9] p-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
