@@ -14,13 +14,13 @@ const DayosLogo = () => (
 
 export function Header() {
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/60 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
         <div className="flex items-center">
           <DayosLogo />
         </div>
         <div className="flex-1 flex justify-center">
-          <div className="bg-white/80 backdrop-blur-sm rounded-full shadow-md px-4 py-2 flex items-center gap-6">
+          <div className="bg-white/30 backdrop-blur-sm rounded-full shadow-md px-4 py-2 flex items-center gap-6">
             <a href="#" className="text-sm text-gray-700 hover:text-black">Platform</a>
             <a href="#" className="text-sm text-gray-700 hover:text-black">Solutions</a>
             <a href="#" className="text-sm text-gray-700 hover:text-black">Use Cases</a>
