@@ -1,6 +1,7 @@
 import "../animations/animate.css";
 import AnimatedBody from "../animations/AnimatedBody";
 import AnimatedTitle from "../animations/AnimatedTitle";
+import SkillsMarquee from "./SkillsMarquee";
 
 const About = () => {
   return (
@@ -43,11 +44,6 @@ const About = () => {
                 "We’re constantly working on exciting projects and solutions, and we welcome opportunities for partnerships and collaborations that drive technology forward."
               }
             />
-            {/* <AnimatedBody
-              text={
-                "I'm currently working on some exciting projects that I can't wait to share with you. But I’m always open to new opportunities and collaborations."
-              }
-            /> */}
           </div>
 
           <div className="mb-24 flex w-[100%] flex-col gap-4 text-base font-normal leading-relaxed tracking-wide text-[#e4ded7]/80 sm:mb-32 md:mb-40 md:gap-6 md:text-[16px] md:leading-normal lg:mt-0 lg:mb-16 lg:max-w-[30%] lg:text-[18px]">
@@ -98,6 +94,7 @@ const About = () => {
             </div>
           </div>
         </div>
+        <SkillsMarquee />
       </div>
     </section>
   );
