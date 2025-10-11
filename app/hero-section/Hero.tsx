@@ -43,6 +43,18 @@ const Hero = () => {
               LN
             </motion.p>
           </Link>
+          <Link
+            href="https://www.instagram.com/r3actr/"
+            target="_blank"
+            aria-label="View Instagram Profile"
+          >
+            <motion.p
+              className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
+              variants={bodyAnimation}
+            >
+              IG
+            </motion.p>
+          </Link>
         </div>
       </div>
 
