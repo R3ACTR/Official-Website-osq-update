@@ -21,10 +21,10 @@ const Footer = () => {
           <Link
             href="https://www.instagram.com/r3actr/"
             target="_blank"
-            aria-label="Victor's Instagram Profile"
+            aria-label="R3ACTR's Instagram Profile"
           >
             <span className="underline underline-offset-2 hover:no-underline">
-              <AnimatedBody text={"Victor Williams"} className={"m-0 p-0"} />
+              <AnimatedBody text={"R3ACTR"} className={"m-0 p-0"} />
             </span>{" "}
           </Link>
         </div>
