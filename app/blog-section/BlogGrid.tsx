@@ -20,7 +20,7 @@ const Blog = () => {
           className="w-[90%] text-center text-[14px] font-semibold uppercase sm:w-[500px] md:w-[550px] md:text-[16px]"
         />
       </div>
-      <div className="grid w-[90%] max-w-[1200px] grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-2 justify-center">
+      <div className="grid w-[90%] max-w-[1200px] grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-2 justify-items-center">
         {blogDetails.map((blog, index) => {
           return (
             <BlogCard
