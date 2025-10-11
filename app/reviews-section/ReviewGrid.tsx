@@ -24,7 +24,7 @@ const Reviews = () => {
       </div>
 
       {/* Review Cards Grid */}
-      <motion.div className="grid w-full max-w-[1345px] grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 justify-center mx-auto">
+      <motion.div className="grid w-full max-w-[1345px] grid-cols-1 gap-6 px-4 sm:grid-cols-2 lg:grid-cols-3 justify-center mx-auto">
         {reviewDetails.map((review, index) => {
           return (
             <div key={index} className="flex justify-center">
