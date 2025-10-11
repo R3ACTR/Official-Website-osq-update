@@ -11,43 +11,36 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
-  title: "R3ACTR — Frontend Engineer",
+  title: "R3ACTR - Student initiative startup",
   description:
-    "Frontend Engineer and Web Designer, currently at Kora. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
+    "R3ACTR is a student-led startup focused on innovation and building next-generation software solutions.",
   generator: "Next.js",
   applicationName: "R3ACTR",
   keywords: [
-    "freelance",
+    "student",
+    "startup",
+    "innovation",
+    "technology",
+    "software",
     "developer",
-    "freelance developer",
     "frontend",
     "react",
-    "frontend developer",
-    "frontend engineer",
-    "creative",
-    "creative developer",
-    "creative engineer",
-    "tech",
-    "nigeria",
-    "software",
-    "software developer",
+    "nextjs",
     "portfolio",
-    "frontend developer portfolio",
-    "creative developer portfolio",
   ],
   colorScheme: "dark",
   openGraph: {
-    title: "R3ACTR — Frontend Engineer",
+    title: "R3ACTR - Student initiative startup",
     description:
-      "Frontend Engineer and Web Designer, currently at Kora. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
-    url: "https://www.victorwilliams.me/",
-    siteName: "www.victorwilliams.me",
+      "R3ACTR is a student-led startup focused on innovation and building next-generation software solutions.",
+    url: "https://www.r3actr.com/",
+    siteName: "www.r3actr.com",
     images: [
       {
         url: "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
         width: 1200,
         height: 630,
-        alt: "R3ACTR — Frontend Engineer",
+        alt: "R3ACTR - Student initiative startup",
       },
     ],
     locale: "en-US",
@@ -55,10 +48,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "R3ACTR — Frontend Engineer",
+    title: "R3ACTR - Student initiative startup",
     description:
-      "Frontend Engineer and Web Designer, currently at Kora. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
-    creator: "victorwill__",
+      "R3ACTR is a student-led startup focused on innovation and building next-generation software solutions.",
+    creator: "r3actr",
     creatorId: "1243720976552144897",
     images: [
       "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
