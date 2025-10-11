@@ -112,8 +112,8 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="text-right text-[16px] font-semibold text-[#e4ded7] md:text-[20px]">
-            Focused on interfaces and experiences, working remotely from Lagos,
-            Nigeria.
+            Driving software innovation and research, working remotely with a
+            global reach.
           </p>
         </motion.div>
       </div>
