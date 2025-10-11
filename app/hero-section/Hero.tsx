@@ -7,7 +7,7 @@ import AnimatedWords from "../animations/AnimatedWords";
 const Hero = () => {
   return (
     <motion.section
-      className="relative z-10 flex h-[100vh] w-full items-center justify-center bg-[url('.//../public/hero.jpg')] bg-cover  bg-center py-0"
+      className="relative z-10 flex h-[100vh] w-full items-center justify-center bg-[url('/hero.jpg')] bg-cover bg-center py-0"
       id="home"
       initial="initial"
       animate="animate"
@@ -95,23 +95,23 @@ const Hero = () => {
 
       <div
         className="absolute bottom-10 flex w-[90%] items-center 
-      justify-center
-      lg:max-w-[1440px] lg:justify-between"
+      justify-center text-center
+      lg:max-w-[1440px] lg:justify-between lg:text-left"
       >
         <motion.div
           className="  max-w-[350px] md:max-w-[400px] lg:max-w-[400px]"
           variants={bodyAnimation}
         >
-          <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
+          <p className="z-50 text-[16px] font-medium text-[#e4ded7] md:text-[20px]">
             Innovating, researching, and building next-gen software solutions.
           </p>
         </motion.div>
 
         <motion.div
-          className="  hidden max-w-[500px] lg:block lg:max-w-[420px]"
+          className="hidden max-w-[500px] text-right lg:block lg:max-w-[420px]"
           variants={bodyAnimation}
         >
-          <p className="text-right text-[16px] font-semibold text-[#e4ded7] md:text-[20px]">
+          <p className="text-[16px] font-semibold text-[#e4ded7] md:text-[20px]">
             Driving software innovation and research, working remotely with a
             global reach.
           </p>
