@@ -1,7 +1,6 @@
 import "../animations/animate.css";
 import AnimatedBody from "../animations/AnimatedBody";
 import AnimatedTitle from "../animations/AnimatedTitle";
-import SkillsMarquee from "./SkillsMarquee";
 
 const About = () => {
   return (
@@ -94,7 +93,6 @@ const About = () => {
             </div>
           </div>
         </div>
-        <SkillsMarquee />
       </div>
     </section>
   );
