@@ -9,7 +9,6 @@ const nextConfig = {
       "user-images.githubusercontent.com",
       "cdn.hashnode.com",
       "github.com",
-      "media.licdn.com",
     ],
   },
   fontLoaders: [

@@ -11,7 +11,7 @@ export const blogDetails = [
   {
     title: "Campus Connect Newsletter",
     image:
-      "https://media.licdn.com/dms/image/v2/D5612AQEQPQD8QCuP1g/series-logo_image-shrink_200_200/B56ZiUaSUJHQAY-/0/1754836576007?e=1762992000&v=beta&t=FfWZ85jhdbZb4w0W2GuisP9PfTU6JVudysmCbobabfo",
+      "/campus-connect.jpeg",
     date: "LATEST ISSUE",
     url: "https://www.linkedin.com/newsletters/campus-connect-7360318124828581888",
     available: true,
