@@ -21,7 +21,7 @@ const Contact = () => {
           className={`flex flex-col items-start justify-center ${monaSans.className} relative w-full sm:items-center lg:max-w-[1440px] `}
         >
           <AnimatedWords2
-            title={"Let's Talk"}
+            title={"Join Us"}
             style={
               "flex max-w-full flex-col items-start text-left text-[clamp(80px,22vw,390px)] font-extrabold uppercase leading-[0.9em] text-[#e4ded7] sm:flex-row sm:items-center sm:justify-center sm:text-center"
             }

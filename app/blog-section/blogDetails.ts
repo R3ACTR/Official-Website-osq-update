@@ -11,7 +11,7 @@ export const blogDetails = [
   {
     title: "Campus Connect Newsletter",
     image:
-      "/campus-connect.jpeg",
+      "/cmps.png",
     date: "LATEST ISSUE",
     url: "https://www.linkedin.com/newsletters/campus-connect-7360318124828581888",
     available: true,
@@ -19,7 +19,7 @@ export const blogDetails = [
   {
     title: "Beyond the Classroom Newsletter",
     image:
-      "https://github.com/victorcodess/folio-v1/assets/84178696/c2693469-e5c6-43ad-a857-693bbbfe7b9a",
+      "/shrr.png",
     date: "LATEST ISSUE",
     url: "https://www.linkedin.com/newsletters/beyond-the-classroom-7368597183362772992",
     available: true,
