@@ -45,7 +45,7 @@ const Contact = () => {
             />
             <div className="mt-5 flex w-full items-center gap-1 md:gap-2.5">
               <Link
-                href="mailto:victor.will.chuk@gmail.com?subject=Lets%20work%20together!&body=Hello%2C%20I%20think%20we%20need%20you%20to%20work%20on%2Fcollaborate%20this%20particular%20product...%20Reach%20out%20as%20soon%20as%20you%20can."
+                href="mailto:r3actr@gmail.com?subject=Lets%20work%20together!&body=Hello%2C%20I%20think%20we%20need%20you%20to%20work%20on%2Fcollaborate%20this%20particular%20product...%20Reach%20out%20as%20soon%20as%20you%20can."
                 target="_blank"
                 aria-label="Send me an email"
                 className="mt-1 flex-1 underline underline-offset-2 hover:no-underline sm:mt-2 md:mt-3 lg:mt-4"
@@ -61,17 +61,15 @@ const Contact = () => {
                   " -mb-1 inline-block overflow-hidden sm:-mb-2 md:-mb-3 lg:-mb-4"
                 }
               />
-              <Link
-                href="https://cal.com/victorwilliams/30min"
-                target="_blank"
+              <span
                 aria-label="Book a call"
-                className="mt-1 flex-1 underline underline-offset-2 hover:no-underline sm:mt-2 md:mt-3 lg:mt-4"
+                className="mt-1 flex-1 cursor-not-allowed text-gray-500 sm:mt-2 md:mt-3 lg:mt-4"
               >
                 <AnimatedBody
                   text={"Book a call"}
                   className={"pl-2"}
                 />
-              </Link>
+              </span>
             </div>
           </div>
 
