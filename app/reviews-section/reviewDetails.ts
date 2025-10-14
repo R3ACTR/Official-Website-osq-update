@@ -29,7 +29,7 @@ export const reviewDetails = [
     company: "R3ACTR",
     profileImg: sree,
     testimonial:
-      "Victor's work is truly outstanding, and I can't recommend him enough! He completely transformed our branding agency's website. Since launch, we've seen a significant jump in website traffic and, crucially, conversions.",
+      "Builds deep learning systems that think and adapt. Ensures every model feels as natural as it is powerful — merging intelligence with innovation.",
   },
   {
     name: "Kalidas V S",
