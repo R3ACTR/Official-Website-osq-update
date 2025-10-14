@@ -45,7 +45,7 @@ export const reviewDetails = [
     company: "R3ACTR",
     profileImg: neeraj,
     testimonial:
-      "Victor is hardworking and has great sense of ownership. He was able to contribute in engineering excellent user interfaces and user experiences at Mono. I’m confident he will be a great asset to any engineering team.",
+      "Builds scalable web systems, APIs, and robust backends. Bridges frontend and backend to deliver seamless, reliable digital experiences.",
   },
 
   
