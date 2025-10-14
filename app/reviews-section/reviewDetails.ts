@@ -21,7 +21,7 @@ export const reviewDetails = [
     company: "R3ACTR",
     profileImg: abhinav,
     testimonial:
-      "Victor is seriously one of the best frontend developers I've ever worked with. He's incredibly talented, super easy to work with, and always goes above and beyond.",
+      "Designs intuitive, accessible, and beautiful interfaces. Ensures every product feels as good as it functions — blending usability with a modern aesthetic.",
   },
   {
     name: "Sreehari R",
