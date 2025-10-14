@@ -61,15 +61,17 @@ const Contact = () => {
                   " -mb-1 inline-block overflow-hidden sm:-mb-2 md:-mb-3 lg:-mb-4"
                 }
               />
-              <span
+              <Link
+                href="https://cal.com/r3actr"
+                target="_blank"
                 aria-label="Book a call"
-                className="mt-1 flex-1 cursor-not-allowed text-gray-500 sm:mt-2 md:mt-3 lg:mt-4"
+                className="mt-1 flex-1 underline underline-offset-2 hover:no-underline sm:mt-2 md:mt-3 lg:mt-4"
               >
                 <AnimatedBody
                   text={"Book a call"}
                   className={"pl-2"}
                 />
-              </span>
+              </Link>
             </div>
           </div>
 
