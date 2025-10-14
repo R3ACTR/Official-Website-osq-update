@@ -9,8 +9,8 @@ const PreLoader = () => {
   }, []);
 
   return (
-    <div className="preloader gap-[5px] overflow-hidden text-[14px] sm:gap-[10px] sm:text-[16px] md:text-[18px] lg:text-[20px]">
-      <div className="texts-container w-500 flex h-60 items-center justify-center gap-[5px] overflow-hidden text-[14px] font-extrabold text-[#e4ded7] opacity-0 sm:gap-[10px] sm:text-[16px] md:text-[18px] lg:text-[20px]">
+    <div className="preloader gap-[5px] overflow-hidden text-[12px] sm:gap-[10px] sm:text-[14px] md:text-[16px] lg:text-[18px]">
+      <div className="texts-container w-500 flex h-60 items-center justify-center gap-[5px] overflow-hidden text-[12px] font-extrabold text-[#e4ded7] opacity-0 sm:gap-[10px] sm:text-[14px] md:text-[16px] lg:text-[18px]">
         <span>Innovating,</span>
         <span>Researching,</span>
         <span>Developing.</span>
