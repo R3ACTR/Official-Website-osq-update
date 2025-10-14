@@ -37,7 +37,7 @@ export const reviewDetails = [
     company: "R3ACTR",
     profileImg: kali,
     testimonial:
-      "Outstanding professional, developed our startup's website and delivered it in a very short time and with high quality.",
+      "Works on machine learning models, intelligent systems, and data-driven features. Brings smart functionality to life with a focus on innovation and accuracy.",
   },
   {
     name: "Neeraj Sukumaran",
