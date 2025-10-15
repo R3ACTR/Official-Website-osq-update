@@ -27,17 +27,21 @@ export const metadata: Metadata = {
     "react",
     "nextjs",
     "portfolio",
+    "r3actr",
+    "sree14hari",
+    "sreehari",
+    "r3actr innovations"
   ],
   colorScheme: "dark",
   openGraph: {
     title: "R3ACTR - Student initiative startup",
     description:
       "R3ACTR is a student-led startup focused on innovation and building next-generation software solutions.",
-    url: "https://www.r3actr.com/",
+    url: "https://www.r3actr.work/",
     siteName: "www.r3actr.com",
     images: [
       {
-        url: "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
+        url: "/r3actr.webp",
         width: 1200,
         height: 630,
         alt: "R3ACTR - Student initiative startup",
@@ -53,7 +57,7 @@ export const metadata: Metadata = {
       "R3ACTR is a student-led startup focused on innovation and building next-generation software solutions.",
     creator: "r3actr",
     images: [
-      "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
+      "/r3actr.webp",
     ],
   },
   robots: {
