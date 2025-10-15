@@ -52,7 +52,6 @@ export const metadata: Metadata = {
     description:
       "R3ACTR is a student-led startup focused on innovation and building next-generation software solutions.",
     creator: "r3actr",
-    creatorId: "1243720976552144897",
     images: [
       "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
     ],
