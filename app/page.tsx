@@ -9,8 +9,10 @@ import NavBar from "./navbar/NavBar";
 import dynamic from "next/dynamic";
 import Reviews from "./reviews-section/ReviewGrid";
 const About = dynamic(() => import("./about-section/About"));
-const Blog = dynamic(() => import("./blog-section/BlogGrid"));
+const UpcomingEvents = dynamic(() => import("./upcoming-events-section/UpcomingEvents"));
 const Contact = dynamic(() => import("./contact-section/Contact"));
+
+
 const Footer = dynamic(() => import("./footer/Footer"));
 
 export default function Home() {
@@ -41,8 +43,10 @@ export default function Home() {
         <Hero />
         <Reviews/>
         <About />
-        <Blog />
+        <UpcomingEvents />
         <Contact />
+
+
         <Footer />
       </main>
       {/* </ScrollerMotion> */}

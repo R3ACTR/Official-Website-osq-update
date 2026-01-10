@@ -1,10 +1,15 @@
 "use client";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const NavBar = () => {
+  const pathname = usePathname();
+
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+    if (pathname !== "/") return;
+
     // first prevent the default behavior
     e.preventDefault();
     // get the href and remove everything before the hash (#)
@@ -20,7 +25,7 @@ const NavBar = () => {
   return (
     <nav className="fixed bottom-10 left-0 right-0 z-50 my-0  mx-auto  flex w-[306px] items-center justify-center gap-1 rounded-lg bg-[#07070a]/90 px-1 py-1 text-[#e4ded7] backdrop-blur-md sm:w-[383.3px] md:p-2 lg:w-[391.3px]">
       <Link
-        href="#home"
+        href="/#home"
         data-blobity-magnetic="false"
         onClick={handleScroll}
         aria-label="Scroll to Home Section"
@@ -31,7 +36,7 @@ const NavBar = () => {
       </Link>
 
       <Link
-        href="#about"
+        href="/#about"
         data-blobity-magnetic="false"
         onClick={handleScroll}
         aria-label="Scroll to About Section"
@@ -42,7 +47,18 @@ const NavBar = () => {
       </Link>
 
       <Link
-        href="#contact"
+        href="/#upcoming"
+        data-blobity-magnetic="false"
+        onClick={handleScroll}
+        aria-label="Scroll to Upcoming Events Section"
+      >
+        <h4 className="rounded py-2 px-2 sm:px-4 text-[12px] sm:text-[14px] md:py-1 md:px-4">
+          Events
+        </h4>
+      </Link>
+
+      <Link
+        href="/#contact"
         data-blobity-magnetic="false"
         onClick={handleScroll}
         aria-label="Scroll to Contact Section"
@@ -51,6 +67,8 @@ const NavBar = () => {
           Contact
         </h4>
       </Link>
+
+
     </nav>
   );
 };
