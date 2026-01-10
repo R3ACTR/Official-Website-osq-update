@@ -34,25 +34,25 @@ const Contact = () => {
                         </Link>
                      </div>
 
-                     <div className="flex gap-8 mt-4">
+                     <div className="flex flex-wrap items-center justify-center gap-6 sm:gap-10 mt-6 sm:mt-8 w-full">
                         <Link
                             href="https://www.linkedin.com/company/r3actr-innovations/"
                             target="_blank"
-                            className="text-[#e4ded7] hover:text-blue-400 transition-colors duration-300 uppercase font-bold tracking-widest"
+                            className="text-sm sm:text-base text-[#e4ded7] hover:text-blue-400 transition-colors duration-300 uppercase font-bold tracking-widest"
                         >
                             LinkedIn
                         </Link>
                         <Link
                             href="https://www.instagram.com/r3actr/"
                             target="_blank"
-                            className="text-[#e4ded7] hover:text-pink-400 transition-colors duration-300 uppercase font-bold tracking-widest"
+                            className="text-sm sm:text-base text-[#e4ded7] hover:text-pink-400 transition-colors duration-300 uppercase font-bold tracking-widest"
                         >
                             Instagram
                         </Link>
                          <Link
                             href="https://github.com/R3ACTR"
                             target="_blank"
-                            className="text-[#e4ded7] hover:text-green-400 transition-colors duration-300 uppercase font-bold tracking-widest"
+                            className="text-sm sm:text-base text-[#e4ded7] hover:text-green-400 transition-colors duration-300 uppercase font-bold tracking-widest"
                         >
                             GitHub
                         </Link>
