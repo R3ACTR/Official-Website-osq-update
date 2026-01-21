@@ -12,7 +12,7 @@ const UpcomingEvents = () => {
     >
       <div className="mx-auto flex w-[90%] flex-col items-center justify-center lg:max-w-[1212.8px]">
         <AnimatedTitle
-          text={"UPCOMING EVENTS"}
+          text={"LIVE EVENTS"}
           className={
             "mb-10 text-left text-[40px] font-bold leading-[0.9em] tracking-tighter text-[#e4ded7] sm:text-[45px] md:mb-16 md:text-[60px] lg:text-[80px]"
           }
@@ -25,7 +25,7 @@ const UpcomingEvents = () => {
              <div className="group relative w-full max-w-[420px] overflow-hidden rounded-xl bg-[#1c1e24] border border-[#2d2f36] hover:border-[#3e414b] transition-all duration-500 p-4 flex flex-col items-center">
                 <div className="w-full overflow-hidden flex justify-center bg-[#0E1016] rounded-lg relative">
                      <Image
-                        src="/Events/osqsoon.png"
+                        src="/Events/OSQ_participant_reg.png"
                         alt="Upcoming Event"
                         width={400}
                         height={520}
