@@ -65,7 +65,7 @@ export default function EventPage() {
                 {/* Embedded Post */}
                 <div className="w-full bg-white rounded-lg overflow-hidden">
                      <iframe 
-                        src="https://www.linkedin.com/posts/opensourcequest-osq-registration-share-7417951925255716864-wyyC?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEjiN_8BlSd1W6z_6EAook36LBOqpd_PXJw" 
+                        src="https://www.linkedin.com/embed/feed/update/urn:li:share:7417951925255716864?collapsed=1" 
                         height="500" 
                         width="100%" 
                         frameBorder="0" 
