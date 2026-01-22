@@ -32,7 +32,7 @@ export default function EventPage() {
               <div className="w-full lg:w-1/2 flex justify-center">
                  <div className="relative w-full max-w-[500px] overflow-hidden rounded-xl bg-[#1c1e24] border border-[#2d2f36] p-2">
                      <Image
-                        src="/Events/osqsoon.png"
+                        src="/Events/OSQ_participant_reg.png"
                         alt="Event Visual"
                         width={500}
                         height={600}
@@ -65,7 +65,7 @@ export default function EventPage() {
                 {/* Embedded Post */}
                 <div className="w-full bg-white rounded-lg overflow-hidden">
                      <iframe 
-                        src="https://www.linkedin.com/embed/feed/update/urn:li:share:7415603450551484417?collapsed=1" 
+                        src="https://www.linkedin.com/embed/feed/update/urn:li:share:7417951925255716864?collapsed=1" 
                         height="500" 
                         width="100%" 
                         frameBorder="0" 
