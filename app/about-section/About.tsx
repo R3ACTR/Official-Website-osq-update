@@ -35,7 +35,7 @@ const About = () => {
             />
             <AnimatedBody
               text={
-                "Beyond development, R3CTR thrives on collaboration and knowledge-sharing. We actively engage with tech communities, contribute to research, and mentor upcoming talent, ensuring our work is informed, innovative, and impactful."
+                "Beyond development, R3ACTR thrives on collaboration and knowledge-sharing. We actively engage with tech communities, contribute to research, and mentor upcoming talent, ensuring our work is informed, innovative, and impactful."
               }
             />
             <AnimatedBody
